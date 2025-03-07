@@ -106,6 +106,9 @@ body {
         border: none;
         color: #fff;
         font-size: 2rem;
+        &.allButt {
+            width: 90%;
+        }
         &:hover {
             color: aqua;
             text-shadow: 0px 0px 19px rgba(244, 244, 255, 1);
