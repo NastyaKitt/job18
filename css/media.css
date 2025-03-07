@@ -181,7 +181,7 @@
         }
     }
     .heroSection {
-        height: 50vh;
+        height: 50rem;
     }
     
     
@@ -192,6 +192,46 @@
             width: 95%;
         }
     }
+    .heroSection {
+        & form {
+            & span {
+                & input {
+                    width: 25rem;
+                }
+            }
+        }
+    }
+    .form {
+        & form {
+            & input {
+                width: 100%;
+            }
+        }
+    }
+    .form {
+        & form {
+            & span {
+                align-items: center;
+                flex-direction: column-reverse;
+                & p {
+                    margin: 0 0 1rem ;
+                }
+            }
+        }
+    }
+    .form {
+        & form {
+            & span {
+                &.last {
+                    margin-top: 6rem;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
 
 }
 @media (max-width:330px) {
