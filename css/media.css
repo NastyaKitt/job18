@@ -1,0 +1,214 @@
+@media (max-width:1024px) {
+    html {
+        font-size: 14px;
+    }
+    .heroSection {
+        padding: 4rem 2rem;
+    }
+    .all {
+        padding: 4rem 0;
+    }
+    .howRepair {
+        &.show {
+            height: auto;
+            padding: 2rem 2rem;
+        }
+        & .items {
+            height: 15rem;
+        }
+    }
+}
+@media (max-width:768px) {
+    .heroSection {
+        height: 70vh;
+        & form {
+            & span {
+                & input {
+                    width: 15rem;
+                }
+            }
+        }
+    }
+    .price {
+        &.show {
+            padding: 2rem 2rem;
+        }
+    }
+    .price {
+        & .prices {
+            & .priceList {
+                & .priceItem {
+                    & p {
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & .slider {
+            & .itemm {
+                &.show {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .howRepair {
+        & .items {
+            & span {
+                width: 65%;
+            }
+        }
+    }
+    .howRepair {
+        & .items {
+            & .svg {
+                width: 30%;
+            }
+        }
+    }
+    footer {
+        & span {
+            width: 100%;
+            & p {
+                font-size: 0.75rem;
+            }
+            & img {
+                width: 35%;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    footer {
+        padding: 2rem 2rem;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
+    
+}
+@media (max-width:600px) {
+    html {
+        font-size: 12px;
+    }
+    .heroSection {
+        & a {
+            width: 75%;
+        }
+    }
+    .heroSection {
+        & span {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+    .heroSection {
+        & form {
+            & span {
+                & input {
+                    &.ok {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .review {
+        & .slider {
+            & .itemm {
+                &.show {
+                    height: 25rem;
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+    .review {
+        &.show {
+            padding: 2rem 2rem;
+        }
+    }
+    
+    
+    
+    
+}
+@media (max-width:420px) {
+    html {
+        font-size: 10px;
+    }
+    .price {
+        & .prices {
+            & .priceList {
+                & .priceItem {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+    .price {
+        & .line {
+            height: 30rem;
+        }
+    }
+    .howRepair {
+        & .items {
+            height: 16rem;
+        }
+    }
+    .howRepair {
+        & .items {
+            & span {
+                width: 65%;
+                text-align: justify;
+            }
+        }
+    }
+    .form {
+        &.show {
+            padding: 2rem 2rem;
+        }
+    }
+    .politic {
+        & .politica {
+            width: 90%;
+            height: 80%;
+        }
+    }
+    .heroSection {
+        height: 50vh;
+    }
+    
+    
+}
+@media (max-width:360px) {
+    .heroSection {
+        & a {
+            width: 95%;
+        }
+    }
+
+}
+@media (max-width:330px) {
+    .howRepair {
+        & .items {
+            & .svg {
+                & svg {
+                    width: 8rem;
+                    height: 8rem;
+                }
+            }
+        }
+    }
+    .howRepair {
+        & .items {
+            height: auto;
+        }
+    }
+
+}
